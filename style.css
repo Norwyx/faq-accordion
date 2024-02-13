@@ -126,3 +126,26 @@ body {
     max-height: 0;
     overflow: hidden;
 }
+
+/* 660px and above */
+@media (min-width: 660px) {
+    body {
+        background-image: url(./images/background-pattern-desktop.svg);
+    }
+}
+
+/* 1440px and above */
+@media (min-width: 1440px) {
+    body {
+        background-position-y: -6%;
+    }
+
+    .container__heading {
+        font-size: 2rem;
+    }
+
+    .container__heading img {
+        width: 40px;
+        height: auto;
+    }
+}
