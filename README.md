@@ -5,7 +5,6 @@ A responsive FAQ accordion. This page was built as a front-end project of [Front
 - [Page](https://norwyx.github.io/faq-accordion/) - Final result of the project
 
 ![FAQ Accordion Desktop](./images/final-results-desktop.png)
-![FAQ Accordion Mobile](./images/final-results-mobile.png)
 <img src="./images/final-results-mobile.png" alt="results" width="400"/>
 
 
