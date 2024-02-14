@@ -58,6 +58,7 @@ body {
     font-size: 1rem;
     color: var(--dark-purple);
     line-height: 1.5;
+    overflow: hidden;
 }
 
 /* Specific classes */
@@ -123,9 +124,30 @@ body {
     color: var(--grayish-purple);
     font-size: 15px;
     padding-top: .75rem;
-    max-height: 0;
+}
+
+.accordion__collapse {
+    transition: height .3s ease;
+    height: 0;
     overflow: hidden;
 }
+
+.open {
+    display: block;
+    overflow: visible;
+}
+
+/* .accordion__collapse.closed {
+    display: none;
+}
+
+.according__collapse.collapsing {
+    height: 0;
+    overflow: hidden;
+}
+/* 
+
+
 
 /* 660px and above */
 @media (min-width: 660px) {
