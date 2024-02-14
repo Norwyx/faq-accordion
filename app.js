@@ -9,10 +9,12 @@ accQuestions.forEach(item => {
         if(!accCollapse.classList.contains('open')) {
             accCollapse.classList.add('open');
             accCollapse.style.height = accCollapse.scrollHeight + 'px';
+            item.style.color = '#ad28eb'
         }
         else {
             accCollapse.classList.remove('open');
             accCollapse.style.height = '0px';
+            item.style.color = 'initial'
         }
     })
 })

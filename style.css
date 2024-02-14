@@ -104,7 +104,7 @@ body {
     align-items: center;
     gap: 2.5rem;
     font-size: 16px;
-    transition: .2s;
+    transition: .3s ease;
 }
 
 .accordion__question:hover {
