@@ -58,7 +58,6 @@ body {
     font-size: 1rem;
     color: var(--dark-purple);
     line-height: 1.5;
-    overflow: hidden;
 }
 
 /* Specific classes */
@@ -116,8 +115,13 @@ body {
     height: auto;
 }
 
-.minus--icon {
+.accordion__question:not(.open) .minus--icon, 
+.accordion__question.open .plus--icon { 
     display: none;
+}
+
+.accordion__question.open .minus--icon { 
+    display: block;
 }
 
 .accordion__text {
@@ -132,27 +136,16 @@ body {
     overflow: hidden;
 }
 
-.open {
+/* .open {
     display: block;
     overflow: visible;
-}
-
-/* .accordion__collapse.closed {
-    display: none;
-}
-
-.according__collapse.collapsing {
-    height: 0;
-    overflow: hidden;
-}
-/* 
-
-
+} */
 
 /* 660px and above */
 @media (min-width: 660px) {
     body {
         background-image: url(./images/background-pattern-desktop.svg);
+        overflow: hidden;
     }
 }
 
