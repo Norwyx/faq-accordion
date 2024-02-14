@@ -6,7 +6,7 @@ A responsive FAQ accordion. This page was built as a front-end project of [Front
 
 ![FAQ Accordion Desktop](./images/final-results-desktop.png)
 ![FAQ Accordion Mobile](./images/final-results-mobile.png)
-
+<img src="./images/final-results-mobile.png" alt="results" width="400"/>
 
 
 
