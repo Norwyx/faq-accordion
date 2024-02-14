@@ -1,15 +1,17 @@
-# Fylo Landing page with two column layout 
+# FAQ Accordion 
 
-A responsive landing page. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5).
+A responsive FAQ accordion. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz/).
 
-- [Page](https://norwyx.github.io/fylo-landing-page-two-column-layout/) - Final result of the project
+- [Page](https://norwyx.github.io/faq-accordion/) - Final result of the project
 
-![Fylo landing page](./images/final-results.png)
+![FAQ Accordion Desktop](./images/final-results-desktop.png)
+![FAQ Accordion Mobile](./images/final-results-mobile.png)
 
 
 
 
 ## Built with
-- [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
-- [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS3)
+- [HTML5](https://developer.mozilla.org/es/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/es/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [Github Pages](https://pages.github.com/)
